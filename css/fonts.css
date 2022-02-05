@@ -1,0 +1,29 @@
+/*         ОБРАЗЕЦ!
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}      */
+
+/*Source Serif 4*/
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@700;900&display=swap");
+
+@font-face {
+	font-family: "SourceSerif4";
+	src: url("../fonts/SourceSerif4-MediumItalic.woff2") format("woff2"),
+		url("../fonts/SourceSerif4-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CSourceSerif4";
+	src: url("../fonts/SourceSerif4-SemiBoldItalic.woff2") format("woff2"),
+		url("../fonts/SourceSerif4-SemiBoldItalic.woff") format("woff");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}

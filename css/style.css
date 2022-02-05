@@ -1,0 +1,99 @@
+@import "null.css";
+@import "fonts.css";
+/*============================================================================================================================*/
+body {
+    font-size: 20px;
+    font-family: "Source Serif 4";
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.conteiner {
+    text-align: center;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+header ul li {
+    display: inline-block;
+    color: rgb(255, 47, 134);
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.li-center {
+    margin: 20px 100px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+
+    color: blue;
+}
+.section1 span {
+    font-size: 25px;
+    font-weight: 700;
+    color: blueviolet;
+}
+.section1 > div > p {
+    text-shadow: 1px 1px black;
+    color: blue;
+}
+
+.section2 h2 {
+    color: brown;
+
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.section2 p {
+    color: darkgreen;
+
+    font-size: 16px;
+    font-weight: 400;
+}
+.color-red {
+    color: darkmagenta;
+    font-size: 20px;
+}
+.section2 > ol > li,
+.section2 > ul > li {
+    color: darkorange;
+    text-shadow: 1px 2px darkorange;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+.section3 {
+    max-height: 600px;
+    overflow: auto;
+    margin: 50px 0;
+}
+.section3 h2 {
+    color: darkslateblue;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.section3 p {
+    color: deepskyblue;
+    font-size: 22px;
+}
+.section3 span {
+    color: gold;
+}
+.footer p {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: blue;
+    text-decoration: underline overline;
+}
